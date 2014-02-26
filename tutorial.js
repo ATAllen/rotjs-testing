@@ -1,5 +1,3 @@
-Game.init();
-
 var Game = {
     display: null,
     map: {},
@@ -177,3 +175,5 @@ Pedro.prototype.act = function() {
 Pedro.prototype._draw = function() {
     Game.display.draw(this._x, this._y, "P", "red");
 }    
+
+Game.init();
